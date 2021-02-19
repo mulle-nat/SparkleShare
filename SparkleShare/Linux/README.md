@@ -65,6 +65,7 @@ sudo dnf install \
 Install these `soup-sharp` and `webkit2gtk-sharp` bindings:
 
 ```bash
+sudo apt-get install make
 git clone https://github.com/hbons/soup-sharp
 cd soup-sharp/
 ./autogen.sh
@@ -82,8 +83,9 @@ sudo make install
 
 On Ubuntu, also install these `appindicator-sharp` bindings:
 
+
 ```bash
-sudo apt-get install libappindicator3-dev
+sudo apt-get install libappindicator3-dev gir1.2-appindicator3-0.1
 git clone https://github.com/hbons/appindicator-sharp
 cd appindicator-sharp/
 ./autogen.sh
