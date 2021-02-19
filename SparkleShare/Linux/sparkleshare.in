@@ -35,6 +35,6 @@ case $1 in
       echo "  --status-icon=[appindicator|gtk]  Use a specific status icon implementation"
     ;;
   *)
-    mono "${prefix}/share/sparkleshareSparkleShare.exe" $@
+    mono "${prefix}/share/sparkleshare/SparkleShare.exe" $@
     ;;
 esac
